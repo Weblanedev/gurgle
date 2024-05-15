@@ -21,14 +21,13 @@ export const ProductCarrousel: FC<ICarrouselTagProp> = ({tag}) => {
       </div>
 
       {/* carousel */}
-      <div className="h-[433px] flex gap-5 overflow-hidden">
+      <div className="h-[433px] flex gap-6 overflow-hidden">
 
         {/* card */}
-       <CardCarrousel img={pdt1} tag='loveseat sofa' price='199.00' country="Tanzania" slashP={400.00}  />
-       <CardCarrousel img={pdt2} tag='table lamp' price='24.99' country="Japan" slashP={0} />
-       <CardCarrousel img={pdt3} tag='beige table lamp' price='25.00' country="Mexico" slashP={0}/>
-       <CardCarrousel img={pdt4} tag='bamboo basket' price='195.00' country="Korea" slashP={0}/>
-       <CardCarrousel img={pdt5} tag='itchen lamp' price='30.00' country="France" slashP={0}/>
+       <CardCarrousel img={pdt1} tag='loveseat sofa' price='199.00' country="Tanzania" slashP={400.00}  newItem={true}/>
+       <CardCarrousel img={pdt2} tag='table lamp' price='24.99' country="Japan" slashP={0} newItem={true}/>
+       <CardCarrousel img={pdt3} tag='beige table lamp' price='25.00' country="Mexico" slashP={0} newItem={true}/>
+       <CardCarrousel img={pdt4} tag='bamboo basket' price='195.00' country="Korea" slashP={0} newItem={true}/>
        </div>
       
     </section>

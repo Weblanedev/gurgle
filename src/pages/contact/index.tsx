@@ -79,7 +79,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with Broadstack Platforms Limited.</p>
+          <p>Find the best way to get help and connect with Us.</p>
         </div>
       </section>
 
@@ -89,8 +89,7 @@ const Contact = () => {
             <h4 className="text-base font-medium">GET IN TOUCH</h4>
             <h2 className="text-[35px] font-medium">Book a Virtual Meeting</h2>
             <p className="text-[16px] text-black leading-[28.8px] font-normal w-full text-center">
-              We will provide a walkthrough to make imports and exports seamless for customers.
-            </p>
+            Reach Out and Let's Create Something Beautiful Together – Contact Us Today</p>
           </div>
 
           <div className="w-full md:w-[720px]">

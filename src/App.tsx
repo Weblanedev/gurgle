@@ -2,6 +2,7 @@ import Home from "./pages/home";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./pages/contact";
 import Billing from "./pages/billing";
+import Shop from "./pages/shop";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={ <Contact/>}/>
+        <Route path="/shop" element={ <Shop/>}/>
         <Route path="/billing" element={ <Billing/>}/>
 
         {/* <Route path="/" element={ <Home/>}/> */}
