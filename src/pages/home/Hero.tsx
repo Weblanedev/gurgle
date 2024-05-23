@@ -1,4 +1,3 @@
-import heroIcon from "../../assets/products/home-img.png";
 
 export const Hero = () => {
   return (

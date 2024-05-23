@@ -15,7 +15,7 @@ interface Props {
 export const CardCarrousel: FC<Props> = ({
   img,
   tag,
-  price,country, newItem
+  price, newItem
   // slashP,
 }): JSX.Element => {
   const [active, setActive] = useState(false);

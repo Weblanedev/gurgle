@@ -39,7 +39,7 @@ interface TagProps {
   country?: string;
 }
 
-const Tag: FC<TagProps> = ({ posT, tag, posB, price, country }): JSX.Element => {
+const Tag: FC<TagProps> = ({ posT, tag, posB, price }): JSX.Element => {
   // const position = pos
   const router = useNavigate()
   const purchase = (title: any, price: any) => {
@@ -59,7 +59,7 @@ const Tag: FC<TagProps> = ({ posT, tag, posB, price, country }): JSX.Element => 
   );
 };
 
-const GridItem: FC<Props> = ({ img, tag, price, country }): JSX.Element => {
+const GridItem: FC<Props> = ({ img, tag, price }): JSX.Element => {
   return (
     <div className="h-[180px] sm:h-[280px]  relative">
       <img src={img} alt="icon" className="h-[180px] sm:h-[280px] " />
